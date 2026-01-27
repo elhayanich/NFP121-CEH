@@ -1,0 +1,13 @@
+JUnit version 4.13.2
+..E.
+There was 1 failure:
+1) testerE14_CreerCercle(CercleTest)
+java.lang.AssertionError: erreur centre x expected:<0.0> but was:<3.0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at CercleTest.testerE14_CreerCercle(CercleTest.java:31)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

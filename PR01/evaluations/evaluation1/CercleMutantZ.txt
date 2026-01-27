@@ -1,0 +1,14 @@
+JUnit version 4.13.2
+.E..
+There was 1 failure:
+1) testerE13_DeuxPointsCouleur(CercleTest)
+java.lang.AssertionError: expected:<java.awt.Color[r=0,g=255,b=0]> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at CercleTest.testerE13_DeuxPointsCouleur(CercleTest.java:21)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

@@ -1,3 +1,39 @@
-Date de l'évaluation : lun. 26 janv. 2026 20:51:42 CET
+Date de l'évaluation : mar. 27 janv. 2026 20:22:26 CET
 
-Pas de mise à jour sur le Gitlab ! (git push manquant ?)
+Compilation de Cercle.java : OK.
+
+Types d'erreurs checkstyle : 8	(voir evaluation1/Cercle.checkstyle)
+
+Résultat de recherche de similitudes sur Cercle.java dans evaluation1/Cercle.sim
+
+JavaDoc automatique de Cercle : KO	(voir evaluation1/Cercle.javadoc)
+
+Test SujetCercleTest : OK (14 tests)	(voir evaluation1/SujetCercleTest.txt)
+Test RobustesseCercleTest : OK (20 tests)	(voir evaluation1/RobustesseCercleTest.txt)
+Test FormeCercleTest : OK (12 tests)	(voir evaluation1/FormeCercleTest.txt)
+Test Forme2CercleTest : OK (9 tests)	(voir evaluation1/Forme2CercleTest.txt)
+
+ComplementsCercleTest : modifiée... on l'utilise donc...
+Compilation de ComplementsCercleTest.java : OK.
+Test ComplementsCercleTest : OK (3 tests)	(voir evaluation1/ComplementsCercleTest.txt)
+
+Compilation de CercleTest.java : OK.
+Test CercleTest : OK (3 tests)	(voir evaluation1/CercleTest.txt)
+Test de CercleTest avec CercleMini : OK
+Test de CercleTest avec CercleMutant1 : OK
+Test de CercleTest avec CercleMutant2 : OK
+Test de CercleTest avec CercleMutant3 : OK
+Test de CercleTest avec CercleMutant4 : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutant5 : OK
+Test de CercleTest avec CercleMutant6 : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutant7 : OK
+Test de CercleTest avec CercleMutant8 : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutant9 : OK
+Test de CercleTest avec CercleMutantA : OK
+Test de CercleTest avec CercleMutantB : OK
+Test de CercleTest avec CercleMutantC : OK
+Test de CercleTest avec CercleMutantD : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutantE : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutantF : ERREUR : CercleTest aurait dû échouer !
+Test de CercleTest avec CercleMutantZ : OK
+Bilan des tests de CercleTest : échec
