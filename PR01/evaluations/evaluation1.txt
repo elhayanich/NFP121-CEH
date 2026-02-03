@@ -1,4 +1,4 @@
-Date de l'évaluation : mar. 27 janv. 2026 20:22:26 CET
+Date de l'évaluation : mar. 03 févr. 2026 21:42:37 CET
 
 Compilation de Cercle.java : OK.
 
@@ -36,4 +36,4 @@ Test de CercleTest avec CercleMutantD : ERREUR : CercleTest aurait dû échouer 
 Test de CercleTest avec CercleMutantE : ERREUR : CercleTest aurait dû échouer !
 Test de CercleTest avec CercleMutantF : ERREUR : CercleTest aurait dû échouer !
 Test de CercleTest avec CercleMutantZ : OK
-Bilan des tests de CercleTest : échec
+Bilan des tests de CercleTest : échec.
