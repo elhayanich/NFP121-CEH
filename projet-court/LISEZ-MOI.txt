@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
-Nom       : 
-Prénom    : 
+Nom       : EL HAYANI
+Prénom    : Julia
 Groupe TP : 
 --------------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ prises en compte dans la notation du projet.
 Il faut remplacer les ... par des nombres.
 
 
-* Temps passé sur la V1 : ... heures ... minutes
+* Temps passé sur la V1 : 3 heures ... minutes
 * Temps passé sur la V2 : ... heures ... minutes
 
 Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
@@ -28,8 +28,11 @@ Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
 Pourquoi l'exception OperationInterditeException ne peut pas être définie
 comme vérifiée par le compilateur ?
 --------------------------------------------------------------------------------
-
-...
+car operationInterditeException étend Runtimeexception et non exception car
+la méthode retirer() dans l'interface jeu ne déclare pas cette exception.
+si elle était vérifiée, le compilateur obligerait à le déclarer dans
+l'interface ce qu'on ne peut pas faire car on n'a pas le droit de
+modifier Jeu 
 
 
 --------------------------------------------------------------------------------

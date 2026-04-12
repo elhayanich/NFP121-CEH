@@ -1,11 +1,16 @@
 package allumettes;
 
+import java.util.Scanner;
+
 /** Lance une partie des 13 allumettes en fonction des arguments fournis
  * sur la ligne de commande.
  * @author	Xavier Crégut
  * @version	$Revision: 1.5 $
  */
 public class Jouer {
+
+	// le scanner unique pour toute l'appli (contrainte C8)
+	static Scanner scanner = new Scanner(System.in);
 
 	/** Lancer une partie. En argument sont donnés les deux joueurs sous
 	 * la forme nom@stratégie.
@@ -22,6 +27,28 @@ public class Jouer {
 			System.out.println("Erreur : " + e.getMessage());
 			afficherUsage();
 			System.exit(1);
+		}
+	}
+
+	//crée un joueur à partir de la chaine "nom@strategie"
+	static Joueur creerJoueur(String description) {
+		String[] parts = description.split("@");
+		if (parts.length != 2) {
+			throw new ConfigurationException("Format invalide : " + description);
+		}
+		String nom = parts[0];
+		String strat = parts[1];
+		Strategie s = creerStrategie(strat, nom);
+		return new Joueur(nom, s);
+	}
+
+	static Strategie creerStrategie(String strat, String nom) {
+		if (strat.equals("rapide")) {
+			return new StrategieRapide();
+		} else if (strat.equals("naif")) {
+			return new StrategieNaif();
+		} else {
+			throw new ConfigurationException("Stratégie inconnue : " + strat);
 		}
 	}
 
