@@ -1,0 +1,13 @@
+=====[ Relecture du code ]======================================================
+
+Remarque : n points de pénalité ==> n points perdus sur la note.
+
+Forme (total <= 5 pt) :
+    * variables locales inutiles	0.5 pt
+    * mauvaise indentation		0.5 pt
+	- Ne pas écrire une méthode et son code sur une seule ligne.
+
+
+Total pénalités : 1.0
+
+--------------------------------------------------------------------------------
