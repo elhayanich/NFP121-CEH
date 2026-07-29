@@ -1,0 +1,12 @@
+Début de la vérification...
+[ERROR] JeuReel.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] JeuReel.java:14:14: '13' devrait être défini comme une constante. [MagicNumber]
+[ERROR] Joueur.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] OperationInterditeException.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] StrategieRapide.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] Jouer.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] Jouer.java:13:20: La variable 'scanner' devrait être privée et avoir des accesseurs. [VisibilityModifier]
+[ERROR] Procuration.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] StrategieNaif.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] Strategie.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+Vérification terminée.

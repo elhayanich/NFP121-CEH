@@ -1,0 +1,43 @@
+Date de l'évaluation : mar. 14 juil. 2026 20:59:18 CEST
+
+Nombre de similitudes : 0	(voir penalites2/sim_java.txt)
+
+Erreurs checkstyle (différentes/types) : 3/3	(voir penalites2//checkstyle.txt)
+
+Classe OperationInterditeException : OperationInterditeException (ok)
+
+Procuration sur le jeu réel : allumettes/Procuration.java (ok)
+
+OperationInterditeException, levée dans : allumettes/Procuration.java (ok)
+OperationInterditeException : JAMAIS RECUPÉRÉE	(pénalité : 2)
+
+Throwable, Exception et RuntimeException ne devraient pas être récupérées car trop générales... ok
+
+AssertionError ne doit pas être récupérée... ok
+
+Autres exceptions récupérées :
+  | allumettes/Jouer.java:25:       } catch (ConfigurationException e) {
+
+Utilisation de 'Scanner' : ok
+  | allumettes/Jouer.java:13:   static Scanner scanner = new Scanner(System.in);
+
+Utilisation de 'split' : ok
+  | allumettes/Jouer.java:35:       String[] parts = description.split("@");
+
+Utilisation de 'Random' : ok
+  | allumettes/StrategieNaif.java:3:import java.util.Random;
+  | allumettes/StrategieNaif.java:8:    private Random rand;
+  | allumettes/StrategieNaif.java:10:       this.rand = new Random();
+
+Utilisation de '3' : Ne pas utiliser de constante littérale hors -1, 0 ou 1 (peut-être PRISE_MAX ?)	(pénalité : 2)
+  |     allumettes/StrategieNaif.java:5://choisit un nombre aleatoire entre 1 et 3
+
+Affichage de 'Impossible !' : jamais affiché (ERREUR)	(pénalité : 2)
+
+Utilisation de 'System.exit' : ok
+
+Compilation de Jouer.java : OK.
+Pas de fichier Arbitre.java sur Gitlab !	(pénalité : 24)
+Fichiers manquants sur Gitlab ? Un 'git push' oublié ?
+
+Total pénalités : 30

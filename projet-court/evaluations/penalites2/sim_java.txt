@@ -1,0 +1,13 @@
+File allumettes/JeuReel.java: 138 tokens, 42 lines (not NL-terminated)
+File allumettes/CoupInvalideException.java: 68 tokens, 39 lines
+File allumettes/Joueur.java: 63 tokens, 17 lines (not NL-terminated)
+File allumettes/OperationInterditeException.java: 21 tokens, 9 lines (not NL-terminated)
+File allumettes/StrategieRapide.java: 45 tokens, 15 lines (not NL-terminated)
+File allumettes/ConfigurationException.java: 21 tokens, 16 lines
+File allumettes/Jouer.java: 311 tokens, 81 lines (not NL-terminated)
+File allumettes/Jeu.java: 23 tokens, 21 lines
+File allumettes/Procuration.java: 78 tokens, 26 lines (not NL-terminated)
+File allumettes/StrategieNaif.java: 63 tokens, 19 lines (not NL-terminated)
+File allumettes/Strategie.java: 13 tokens, 6 lines (not NL-terminated)
+Total input: 11 files (11 new, 0 old), 844 tokens
+
