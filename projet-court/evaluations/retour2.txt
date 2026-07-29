@@ -1,0 +1,28 @@
+Les Q# font référence aux questions posées dans le fichier LISEZ-MOI.txt.
+Les pénalités '+' sont évaluées manuellement (enseignant de TP).
+Les pénalités '+' peuvent donner lieu à des pénalités définitives en V1 (si le travail est jugé insuffisant).
+
++ C3 : Qualité du source de l'application :
+    + structuration/commentaires (en particulier pour traitement des arguments de la ligne de commande) : 1 pt
+    + redondance (en particulier pour traitement des arguments de la ligne de commande) : 1 pt
++ C11 : Pas d'utilisation des exceptions pour la robustesse du traitement des arguments de la ligne de commande : 1 pt
++ C13 : L'arbitre ne doit ni utiliser directement, ni tester la stratégie d'un joueur (instanceof, equals, etc) : 1 pt
+
++ Autres aspects fonctionnels :
+    + OperationInterditeException est récupérée trop tôt : .5 pt
+
++ mauvaise compréhension/implantation du proxy : 2 pt
+
++ L3 : Fichier LISEZ-MOI.txt :
+    + Question 1 : ok
+    + Question 2 : 1 pt
+    + Question 3 : 1 pt
+
+
++ Autres remarques :
+    - Jouer.java : non modifié.
+
+
++ Total pénalités : 6.5
++ Correction sur les pénalités automatiques : 0
+
